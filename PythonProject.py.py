@@ -119,10 +119,12 @@ def hotelsearchWithRatings(state, operation):
             answer[0] = [float(cost) / float(datalength)]
 
         return answer
-
-
+print("Please go through readme file for detailes.");
+print("Please Choose anyone among 'Karnataka, Maharashtra, TamilNadu or even India' ");
 state = input("What is the state: ").capitalize()
+print("Please select anyone among 'Cost or Ratings'  ");
 criteria = input("Choose Cost or Ratings: ").capitalize()
+print("Choose anyone operation among '(Highest/Cheapest/Average)' ");
 operation = input("Type of Operation(Highest/Cheapest/Average): ").capitalize()
 
 if (criteria == "Cost"):
